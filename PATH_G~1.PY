@@ -16,7 +16,9 @@ class LaneChange():
     self.s_cnt = 0            # distance to travel count
     self.s = 0
 
-  
+  def hi(self):
+    self.s = 11
+    
   def path_generator(self):
     """
     input 
